@@ -21,6 +21,17 @@ class Register extends Component{
         var city = event.target[4].value;
         var state = event.target[5].value;
         var salesRep = event.target[6].value;
+
+        this.props.registerAction({
+            name: name,
+            email: email,
+            accountType: accountType,
+            password: password,
+            city: city,
+            state: state,
+            salesRep: salesRep
+        });
+
     }
 
 
