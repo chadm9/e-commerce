@@ -1,6 +1,3 @@
-/**
- * Created by mephisto on 7/10/17.
- */
 // THis is our master reducer... the root reducer.
 // The reducers hold pieces of state. The root reducer holds all the reducers.
 // I.e., the rootreducer holds ALL peices of state, or application state.
@@ -19,6 +16,6 @@ const rootReducer = combineReducers({
     // Inside here, we pass each reducer as a key/value
     // Each key will be available as a peice of state later
     students: StudentReducer
-});
+})
 
 export default rootReducer;

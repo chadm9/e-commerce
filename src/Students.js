@@ -1,6 +1,3 @@
-/**
- * Created by mephisto on 7/10/17.
- */
 import React, {Component} from 'react';
 
 class Students extends Component{
