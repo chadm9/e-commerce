@@ -19,14 +19,14 @@ class Slick extends Component{
         return (
             <div>
                 <Slider{...settings}>
-                    <div className="slick-image"><img src="/images1/ferrari.jpg" /></div>
-                    <div className="slick-image"><img src="/images1/chevy-delux-coupe.jpg" /></div>
-                    <div className="slick-image"><img src="/images1/harley.jpg" /></div>
-                    <div className="slick-image"><img src="/images1/lamb.jpg" /></div>
-                    <div className="slick-image"><img src="/images1/train.jpg" /></div>
-                    <div className="slick-image"><img src="/images1/train1.jpg" /></div>
-                    <div className="slick-image"><img src="/images1/schooner.jpg" /></div>
-                    <div className="slick-image"><img src="/images1/fordFalcon.jpg" /></div>
+                    <div className="slick-image"><img src="/images/ferrari.jpg" alt=""/></div>
+                    {/*<div className="slick-image"><img src="/images1/chevy-delux-coupe.jpg" /></div>*/}
+                    {/*<div className="slick-image"><img src="/images1/harley.jpg" /></div>*/}
+                    <div className="slick-image"><img src="/images/lamb.jpg" alt=""/></div>
+                    <div className="slick-image"><img src="/images/train.jpg" alt=""/></div>
+                    <div className="slick-image"><img src="/images/train1.jpg" alt=""/></div>
+                    <div className="slick-image"><img src="/images/schooner.jpg" alt=""/></div>
+                    <div className="slick-image"><img src="/images/fordFalcon.jpg" alt=""/></div>
                 </Slider>
             </div>
 

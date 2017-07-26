@@ -1,13 +1,13 @@
-/**
- * Created by mephisto on 7/13/17.
- */
+
 import $ from 'jquery';
-export default function(userdata){
+
+export default function(userData){
+    // console.log(window.hostAddress + '/register')
     var thePromise = $.ajax({
-        method: 'POST',
+        method: "POST",
         url: window.hostAddress + '/register',
-        data: userdata
-    });
+        data: userData
+    })
     return{
         type: "REGISTER",
         payload: thePromise
